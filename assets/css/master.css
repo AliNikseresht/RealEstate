@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+.pic_home {
+  height: 100vh !important;
+}
+.pic_home figure img {
+  width: 100% !important;
+  height: 100% !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+.pic_home figure {
+  position: relative;
+}
+.pic_home figure::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(52, 58, 64, 0.861);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu_top {
+  height: 60px;
+  background-color: rgba(88, 88, 88, 0.804);
+}
+.menu_top li {
+  list-style-type: none;
+}
+.menu_top li a {
+  transition: 0.4s;
+}
+.menu_top li a:hover {
+  color: white !important;
+}
+
+.fonts {
+  font-family: "Abril Fatface", cursive;
+}
+.fonts h2 {
+  color: #f69314;
+  font-family: "Abril Fatface", cursive;
+}
+
+.menu_hover {
+  color: black;
+}
+.menu_hover li a {
+  color: black;
+}
+.menu_hover li a:hover {
+  color: #f69314 !important;
+}/*# sourceMappingURL=master.css.map */

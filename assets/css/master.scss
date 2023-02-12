@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+
+.pic_home{
+    height: 100vh!important;
+    figure{
+        img{
+            width: 100%!important;
+            height: 100%!important;
+            object-fit: cover!important;
+        }
+    }
+    figure{
+        position: relative;
+        &::after{
+            content: '';
+            width: 100%;
+            height: 100%;
+            background-color: rgba(52, 58, 64, 0.861);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+
+.menu_top{
+    height: 60px;
+    background-color: rgba(88, 88, 88, 0.804);
+    li{
+        list-style-type: none;
+        a{
+            transition: .4s;
+            &:hover{
+                color: white!important;
+            }
+        }
+    }
+}
+
+.fonts{
+    font-family: 'Abril Fatface', cursive;
+    h2{
+        color: #f69314;
+        font-family: 'Abril Fatface', cursive;
+
+    }
+
+}
+
+.menu_hover{
+    color: black;
+    li{
+        a{
+            color: black;
+            &:hover{
+                color: #f69314!important;
+            }
+        }
+    }
+}
